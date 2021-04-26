@@ -93,10 +93,10 @@ border-radius: 25px;
 <script>
 </script>
 </head>
-<i><h1 style="color:red" id=msgs>Umbrella Host 7.5X </h1>
+<i><h1 style="color:white" id=msgs>Umbrella Host 7.5X </h1>
 <hr>
 <br>
-<h1 style="color:red" id=msg>Choose your payload :</h1>
+<h1 style="color:white" id=msg>Choose your payload :</h1>
 <div style="text-align:center">
 <button class="btn btn-main" onmouseover="mainpayload1()" onmouseout="pagetitle()" onclick=load_mira1()> GoldHen 751</button>
 <button class="btn btn-main" onmouseover="mainpayload5()" onmouseout="pagetitle()" onclick=load_mira5()>HenSilver755</button>
@@ -119,9 +119,6 @@ border-radius: 25px;
 <br>
 </div>
 <script>
-function mainpayload0(){
-document.getElementById("msg").innerHTML = "This version of MIRA reboot your PS4 and active a Debug Settings : 7.50 Users";
-}
 function mainpayload1(){
 document.getElementById("msg").innerHTML = "This version of MIRA reboot your PS4 and active a Debug Settings : 7.51 Users";
 }
@@ -171,13 +168,6 @@ function pagetitle(){
 document.getElementById("msg").innerHTML = "About the payload :";
 }
 
-function load_mira0(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload0.html#f=mira50.js';
-        link.click();
-}
 function load_mira1(){
 
   var link = document.createElement('a');
