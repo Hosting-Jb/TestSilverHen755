@@ -1,6 +1,6 @@
 CACHE MANIFEST 
 # v4 
-# 16/04/2021-19:10:28,77 
+# 26/04/2021-19:46:23,32 
 
 
 CACHE: 
@@ -24,14 +24,12 @@ history-blocker.js
 index.html
 int64.js
 jb.c
-jb.js
 kernel-clock.js
 kernel-dumper.js
 Mira.html
 mira0.js
 mira1.js
 mira5.js
-mira50.js
 mira51.js
 mira55.js
 netcat.js
@@ -45,7 +43,6 @@ README.md
 restore.js
 todex.js
 umbrella.jpg
-utils.js
 
 FALLBACK: 
 index.html 
